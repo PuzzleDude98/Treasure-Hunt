@@ -16,10 +16,10 @@
         var codeTwo = "ITSV9Q";
         var password = document.getElementById("pswd").value;
         if (password == codeOne) {
-             window.location="clue2";
+             window.location="JSA9ND";
         }
         elif (password == codeTwo) {
-             window.location="clue3";
+             window.location="ITSV9Q";
         }
         else{
             alert("Passwords do not match.");

@@ -13,12 +13,12 @@
     function checkPswd() {
         var codeOne = "JSA9ND";
         var password = document.getElementById("pswd").value;
+        var codeTwo = "ITSV9Q";
+        var password = document.getElementById("pswd").value;
         if (password == codeOne) {
              window.location="clue2";
         }
-        var codeTwo = "ITSV9Q";
-        var password = document.getElementById("pswd").value;
-        if (password == codeTwo) {
+        elif (password == codeTwo) {
              window.location="clue3";
         }
         else{
